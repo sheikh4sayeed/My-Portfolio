@@ -1,0 +1,170 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg{
+    background-image: url(../img/top-banner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    
+
+}
+h1{
+    font-size: 50px;
+}
+.highlight{
+
+
+    color: #FFB528;
+}
+
+.same{
+
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+    margin: 5%;
+}
+.same >img{
+    
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.same>h1{
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.same>h3{
+
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.same>p{
+
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.same>button{
+    height: 30px;
+    width: 70px;
+    background-color: #FFB528;
+    color: #fff;
+    border-radius: 30px;
+}
+.same> button a{
+
+    color: #fff;
+    text-decoration: none;
+    text-decoration-style: none;
+    font-weight: bold;
+
+}
+.same>button:hover{
+    background-color:black;
+}
+
+.same>button a:hover{
+
+color:white;
+}
+
+/* 2nd section */
+.bg-second{
+
+    background-image: url(../img/dream-bg.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+float: right;
+width: 45%;
+
+}
+.box>img{
+
+    width: 500px;
+    height: 400px;
+    padding-right: 10px;
+
+}
+
+.box{
+
+    margin: 5px;
+
+}
+.box>h3{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.box>p{
+
+    padding-bottom:  10px ;
+}
+.box>button{
+
+    background-color: orange;
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+}
+.box>button a{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.box>button:hover{
+    background-color: black;
+}
+/* Thirt section */
+.bg-third{
+
+background-image: url(../img/exp-bg.png);
+background-repeat: no-repeat;
+height: 450px;
+background-position: left;
+}
+
+.model{
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
+
+    border-radius: 5%;
+    height: 250px;
+    border-left: 7px solid orange;
+}
+.orange{
+
+    color: orange;
+    
+}
+.model h3 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.model h1 h3 p{
+    margin-left: 70px;
+
+}
+.extra{
+ 
+    margin:20px;
+}
